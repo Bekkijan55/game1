@@ -1,0 +1,82 @@
+.form-block{
+    margin-top: 12%;
+    padding: 5%;
+    padding-top: 6%;
+    padding-bottom: 8%;
+    background: #ddd;
+    border-radius: 10px;
+    height: 100%;
+    box-shadow: 0 0 11px darkblue
+}
+.signin-block{
+    margin-top: 12%;
+    padding: 6%;
+    padding-bottom: 12%;
+    background: #8EDBB8;
+    border-radius: 10px;
+    height: 100%;
+    box-shadow: 0 0 10px azure;
+}
+.text-body p {
+    font-size: 18px;
+}
+.text-block {
+    margin-top: 10%;
+}
+.generated-word span:hover {
+    cursor: pointer;
+}
+.generated-word span {
+    padding: 6px;
+    margin: 3px;
+    border: 1px solid #ddd;
+}
+.genword-block{
+    display: none;
+}
+.chosenword-block{
+    padding: 2%;
+    width: 80%;
+    border: 1px solid #ddd;
+    margin-top: 5%;
+    display: flex;
+}
+.buttons{
+    width: 80%;
+}
+#checkword{
+    float: right;
+  display:table-row;
+}
+#addbtn{
+    display: none;
+}
+#nextbtn{
+    float: right;
+    display: table-row;
+    display: none;
+}
+.block-text{
+    width: 80%;
+}
+.user-detail{
+    width: 80%;
+
+}
+.user-detail h2{
+    float: right;
+    display: inline-flex;
+}
+.newscore{
+    color: green;
+}
+.signupback{
+    background: rgb(187, 187, 187);
+    height: 100vh;
+}
+.signinback {
+    height: 100vh;
+    background: rgb(187, 186, 186);
+}
+
+
